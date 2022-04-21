@@ -1,0 +1,152 @@
+* { 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box
+}
+@media (max-width: 700px) {
+   .logo{
+       display: none;
+    }
+}
+body{
+    background-color: #0B0B0B;
+    font-family: "Archivo", sans-serif;
+}
+nav{
+    background-color: rgb(235, 191, 15);
+    color: black;
+}
+div p{
+    margin-top: 30px;
+}
+div h1{
+    text-align: center;
+}
+.texto{
+    display: flex;
+    justify-content:space-between;
+    text-align: justify;
+    align-items: center;
+    width: 600px;
+    height: 200px;
+    margin-top: 60px;
+    margin-left: 20px;
+}
+.foto img{
+    margin-top: 120px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    height: 426px;
+    width: 640px;
+}
+.item{
+    display: inline-block;
+    padding: 30px 100px;
+    color: rgb(23, 23, 6);
+    font-size: 18px;
+    font-weight: 600;
+    opacity: 1; 
+}
+.content{
+    color: rgb(254, 254, 254);
+    display: flex;
+}
+.texto{
+    display: block;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.logo img{
+    width: 100px;
+    margin-left: 30px;
+    vertical-align: middle;
+    padding: 10px 15px;
+}
+.item:hover {
+    opacity: 0.6;
+    transition: 0.3s;
+}
+.logo:hover {
+    transition: 0.3s;
+    transform: scale(1.1);
+}
+.foto img:hover{
+    opacity: 0.6;
+    transition: 0.3s;
+}
+.saibamais ul{
+    display: flex;
+    background-color: rgb(235, 191, 15);
+    justify-content: space-around;
+
+}
+.icone{
+    display: inline-block;
+    font-weight: 600;
+}
+.bloco{
+    opacity: 0.6;
+    display:flex;
+    flex-direction: column;
+}
+.animais ul{
+    display: flex;
+    justify-content: space-around;
+
+}
+.perfil{
+    opacity: 0.6;
+    display:flex;
+    flex-direction: column;
+}
+.figura{
+    display: inline-block;
+    font-weight: 600;
+}
+.figura li:visited{
+ color: white;
+ text-decoration: none;
+}
+.animais{
+    padding: 30px;
+    color: white;
+}
+.animais img{
+    height: 156px;
+    width: 156 px;
+    margin-top: 30px;
+}
+.saibamais img{
+    height: 96px;
+    width: 96px;
+}
+.bloco:hover{
+    transition: 0.3s;
+    opacity: 1;
+    transform: scale(1.1);
+}
+.saibamais ul:hover{
+    transition: 0.3s;
+    opacity: 1;
+}
+.animais ul:hover{
+    transition: 0.3s;
+    opacity: 1;
+}
+.perfil:hover{
+    transition: 0.3s;
+    opacity: 1;
+    transform: scale(1.1);
+}
+.footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(235, 191, 15);;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+  
